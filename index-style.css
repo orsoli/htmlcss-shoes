@@ -10,18 +10,16 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+h1{
+    font-size: 47px;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* utils  */
 .container{
     width: 40%;
     margin: auto;
-
-    /* delete  */
-    height: 100vh;
-}
-
-/* delete  */
-.border{
-    border: 2px dashed black;
 }
 
 .full-page{
@@ -31,14 +29,29 @@ body{
 /* main  */
 #vans{
     background-color: red;
+    color: yellow;
+}
+
+#vans>.shoe, #tomy>.shoe{
+    translate: 0 20%;
 }
 
 #tomy{
     background-color: green;
+    color: yellow;
 }
 
 #converse{
-    background-color: yellow;    
+    background-color: yellow; 
+    color: green;  
+    position: relative; 
+}
+
+#converse>.shoe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
 }
 
 .shoe img{
