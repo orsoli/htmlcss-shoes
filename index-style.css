@@ -6,5 +6,44 @@
 }
 
 /* Generics  */
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
 
 /* utils  */
+.container{
+    width: 60%;
+    margin: auto;
+
+    /* delete  */
+    height: 100vh;
+}
+
+/* delete  */
+.border{
+    border: 2px dashed black;
+}
+
+.full-page{
+    height: 100vh;
+}
+
+/* main  */
+#vans{
+    background-color: red;
+}
+
+#tomy{
+    background-color: green;
+}
+#converse{
+    background-color: yellow;    
+}
+
+/* navigate side  */
+.side-bar ul{
+    list-style-type: none;
+    position: fixed;
+    top: 10px;
+    right: 5px;
+}
