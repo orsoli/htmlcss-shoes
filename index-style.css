@@ -12,7 +12,7 @@ body{
 
 /* utils  */
 .container{
-    width: 60%;
+    width: 40%;
     margin: auto;
 
     /* delete  */
@@ -36,9 +36,15 @@ body{
 #tomy{
     background-color: green;
 }
+
 #converse{
     background-color: yellow;    
 }
+
+.shoe img{
+    max-width: 100%;
+}
+
 
 /* navigate side  */
 .side-bar ul{
